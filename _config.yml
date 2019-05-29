@@ -2,3 +2,5 @@ theme: jekyll-theme-cayman
 title: Prometheus Computing
 description: HHS Intelligent Automation/Artificial Intelligence (IAAI) Contract #75P00119D00079
 show_downloads: false
+github:
+  is_project_page: false
