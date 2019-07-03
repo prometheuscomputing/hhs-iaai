@@ -1,6 +1,55 @@
-theme: jekyll-theme-cayman
-title: Prometheus Computing
-description: HHS Intelligent Automation/Artificial Intelligence (IAAI) Contract #75P00119D00079
-show_downloads: false
-github:
-  is_project_page: false
+# Set theme
+remote_theme: daviddarnes/alembic
+
+# File excludes
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+
+# Set plugins
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-default-layout
+- jekyll-feed
+- jemoji
+- jekyll-remote-theme
+
+# Site settings
+url: 'https://iaai.prometheuscomputing.com/'
+baseurl: ''
+title: 'Prometheus Computing'
+description: 'HHS Intelligent Automation/Artificial Intelligence (IAAI) Contract'
+permalink: pretty
+logo: "http://192.168.46.10:4000/assets/img/logoPC_black.png"
+
+# Pagination
+paginate: 5
+paginate_path: experience/page:num
+
+# Header nav
+navigation_header:
+- title: Home
+  url: /
+- title: About
+  url: /about/
+#- title: Experience
+#  url: /experience/
+
+# Footer nav
+navigation_footer:
+  Back to top: "#top"
+
+# Collections
+collections:
+  experiences:
+    title: Experience
+    output: true
+    description: "Projects we have worked on leveraging IAAI technologies"
+    feature_text: |
+      ## Prometheus and IAAI Technologies
+    feature_image: ""
