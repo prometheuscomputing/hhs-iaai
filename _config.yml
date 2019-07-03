@@ -25,7 +25,7 @@ baseurl: ''
 title: 'Prometheus Computing'
 description: 'HHS Intelligent Automation/Artificial Intelligence (IAAI) Contract'
 permalink: pretty
-logo: "http://192.168.46.10:4000/assets/img/logoPC_black.png"
+logo: "https://iaai.prometheuscomputing.com/assets/img/logoPC_black.png"
 
 # Pagination
 paginate: 5
