@@ -10,4 +10,4 @@ gem "jekyll-default-layout", "~> 0.1"
 gem "jekyll-feed", "~> 0.9"
 gem "jemoji", "~> 0.9"
 gem "jekyll-remote-theme", "~> 0.3"
-gem 'nokogiri', '~> 1.10.8'
+gem 'nokogiri', '~> 1.12.5'
